@@ -36,7 +36,7 @@ Copy-Item .env.example .env
 Editar `.env` localmente (nunca compartirlo ni subirlo):
 
 ```dotenv
-GEMINI_API_KEY=TU_CLAVE_CONFIGURADA_SOLO_EN_TU_EQUIPO
+GEMINI_API_KEY=***********xxxxxxxxxxxxxxxxxxx***********
 GEMINI_MODEL=gemini-3.1-flash-lite
 ```
 
