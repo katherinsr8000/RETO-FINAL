@@ -4,7 +4,25 @@ Agente conversacional en TypeScript para preparar formularios Excel/PDF y soport
 
 **Repositorio:** https://github.com/katherinsr8000/RETO-FINAL
 
-**Enlace público de prueba:** pendiente de despliegue. Sustituir esta línea por la URL real antes de entregar. El arranque local no equivale a un despliegue público.
+**Aplicación desplegada en Render:** https://reto-final-bem5.onrender.com/
+
+**Configuración utilizada:**
+
+- Runtime: Node.js.
+- Rama: master.
+- Build Command: `npm ci --include=dev`.
+- Start Command: `npm start`.
+- `GEMINI_API_KEY`: configurada únicamente como variable de entorno del backend en Render.
+- `GEMINI_MODEL`: `gemini-3.1-flash-lite`.
+- `MAX_SESSION_TOKENS`: `400000`.
+- `MAX_GLOBAL_TOKENS`: `1000000`.
+- `MAX_ITERATIONS`: `10`.
+
+La clave no se incluye en el repositorio ni en el frontend.
+
+Las sesiones y los presupuestos se mantienen en memoria. Los archivos
+generados se almacenan temporalmente en `out/` y pueden perderse
+al reiniciar o redesplegar el servicio.
 
 ## Arranque local
 
